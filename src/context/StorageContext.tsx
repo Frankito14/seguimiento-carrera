@@ -9,6 +9,7 @@ import type { FC, ReactNode } from 'react';
 
 import type { Cursada } from '@types';
 
+/*
 type Usuario = {
     nombre: string,
 }
@@ -19,10 +20,11 @@ type CursadaStorage = {
     cursada: Cursada
 }
 
+/*
 type Storage = {
     usuario: Usuario,
     cursadas: CursadaStorage[]
-}
+}*/
 
 type Sesion = {
     idCarrera: number,

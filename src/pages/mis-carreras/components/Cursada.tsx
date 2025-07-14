@@ -6,7 +6,7 @@ import { useStorage } from "@context/StorageContext";
 import { useNavigate } from "react-router";
 
 
-export default function CursadaCard({ id, nombre, universidad, materias, duracion }: Cursada) {
+export default function CursadaCard({ id, nombre, universidad, materias }: Cursada) {
 
     const { editarSesion } = useStorage()
     const navigate = useNavigate()
