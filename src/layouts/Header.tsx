@@ -15,7 +15,7 @@ export default function Header() {
                     {/*<a href="#_" className="mr-5 font-medium hover:text-gray-900">Home</a>*/}
                 </nav>
                 <div className="flex gap-2 flex-row flex-wrap justify-center items-center w-auto h-full">
-                    <NavLink to="/mis-carreras" className="mr-5 font-medium hover:text-gray-900">Mis carreras</NavLink>
+                    <NavLink to="/" className="mr-5 font-medium hover:text-gray-900">Mis carreras</NavLink>
                     <NavLink to="/nueva-cursada"
                         className="px-4 py-2 text-sm font-bold text-white uppercase transition-all duration-150 bg-emerald-600 rounded shadow outline-none active:bg-teal-600 hover:bg-teal-700 focus:outline-none ease">
                         Nueva cursada

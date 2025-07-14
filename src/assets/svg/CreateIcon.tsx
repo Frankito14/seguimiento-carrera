@@ -1,4 +1,4 @@
-import * as React from "react";
+
 
 const CreateIcon = (props: any) => (
   <svg

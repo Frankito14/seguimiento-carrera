@@ -27,7 +27,7 @@ export default function PageNuevaCursada() {
     return (
         <div className='w-full md:w-3/4 m-auto font-sans min-h-screen'>
             <div className="w-full p-2">
-                <NavLink to='/inicio' className='text-md font-semibold my-4 p-2 text-emerald-800'>Volver</NavLink>
+                <NavLink to='/' className='text-md font-semibold my-4 p-2 text-emerald-800'>Volver</NavLink>
                 <div className="flex flex-nowrap justify-center gap-4 justify-items-center" >
                     <h2 className="text-2xl text-center font-bold my-8 sm:my-4  text-neutral-600">Nueva cursada</h2>
                 </div>

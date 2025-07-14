@@ -119,7 +119,7 @@ export default function TablaCarrera() {
 
     return (
         <div className="w-full p-2">
-            <NavLink to='/inicio' className='text-md font-semibold my-4 p-2 text-emerald-800'>Volver</NavLink>
+            <NavLink to='/' className='text-md font-semibold my-4 p-2 text-emerald-800'>Volver</NavLink>
             <div className="mt-4 w-full p-4 bg-white rounded shadow-md text-neutral-600 border-1 border-neutral-300 relative">
                 <div className="p-2 text-md space-y-2 mb-4 font-semibold sticky">
                     <div className="flex  justify-between gap-4 justify-items-center flex-wrap ">

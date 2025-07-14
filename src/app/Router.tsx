@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router";
+import {Routes, Route } from "react-router";
 
 //Pages
 import PageInicio from "@pages/mis-carreras/page.tsx";
