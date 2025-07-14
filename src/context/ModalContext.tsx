@@ -1,4 +1,4 @@
-import React, {
+import {
     createContext,
     useContext,
     useState,
@@ -53,7 +53,7 @@ export const ModalProvider: FC<{ children: ReactNode }> = ({ children }) => {
             {children}
 
             {visible && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
                     <div className="bg-white rounded-xl shadow-lg p-6 max-w-lg w-full relative">
                         <button
                             onClick={cerrarModal}
