@@ -140,7 +140,7 @@ export default function TablaCarrera() {
                     <p>Duración: {cursada.duracion} cuatrimestres</p>
                     <p>Cantidad de materias: {cantidadMaterias}</p>
                     <p>Materias Aprobadas: <span className="text-emerald-700">{`${cantidadAprobadas}`}</span>{` / ${cantidadMaterias}`}</p>
-                    <p id="inicio">Porcentaje de aprobación: <span className="text-emerald-700 font-semibold">{porcentajeAprobacion}%</span></p>
+                    <p id="inicio">Porcentaje de aprobación: <span className="text-emerald-700">{porcentajeAprobacion}%</span></p>
                 </div>
             </div>
             <div className="mt-4 flex flex-wrap flex-col justify-center w-full gap-4">
