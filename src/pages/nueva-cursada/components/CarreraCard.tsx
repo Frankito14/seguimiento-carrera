@@ -11,8 +11,8 @@ export default function CarreraCard({ id, nombre, universidad, duracion, onClick
                     <svg xmlns="http://www.w3.org/2000/svg" className=" w-8 h-8 fill-white " viewBox="0 0 16 16"><path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" /></svg>
                 </button>
             </div>
-            <p className="text-md pt-2">{universidad}</p>
-            <p className="text-md pt-2">Duración: {duracion} cuatrimestres</p>
+            <p className="text-sm ">{universidad}</p>
+            <p className="text-sm pt-2">Duración: {duracion} cuatrimestres</p>
 
         </div>
     )
