@@ -48,8 +48,8 @@ const StorageContext = createContext<StorageContextType | undefined>(undefined);
 export const StorageProvider: FC<{ children: ReactNode }> = ({ children }) => {
 
     const [sesion, setSesion] = useState({
-        idCursada: 2,
-        idCarrera: 2,
+        idCursada: 0,
+        idCarrera: 0,
     })
 
     const agregarCursada = useCallback((nuevaCursada: Cursada) => {

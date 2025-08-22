@@ -14,7 +14,7 @@ export default function Footer() {
         <footer className="bg-emerald-700 z-20 border-top-2 border-neutral-500">
             <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
                 <div className="flex justify-center text-white ">
-                    <img src={Logo}/>
+                    <img src={Logo} />
                 </div>
 
                 <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-300 ">
@@ -22,12 +22,13 @@ export default function Footer() {
                 </p>
 
                 <ul className="mt-12 flex justify-center gap-6 md:gap-8">
+                    {/*
                     <li>
                         <a
                             href={instagramURL}
                             rel="noreferrer"
                             target="_blank"
-                            className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                            className="transition text-white hover:text-white/75"
                         >
                             <span className="sr-only">Instagram</span>
                             <svg className="size-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -38,13 +39,13 @@ export default function Footer() {
                                 />
                             </svg>
                         </a>
-                    </li>
+                    </li>*/}
                     <li>
                         <a
                             href={linkedinURL}
                             rel="noreferrer"
                             target="_blank"
-                            className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                            className="transition text-white hover:text-white/75"
                         >
                             <span className="sr-only">Linkedin</span>
                             <svg className="size-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -57,7 +58,7 @@ export default function Footer() {
                             href={githubURL}
                             rel="noreferrer"
                             target="_blank"
-                            className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                            className="transition text-white hover:text-white/75"
                         >
                             <span className="sr-only">GitHub</span>
                             <svg className="size-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -74,11 +75,12 @@ export default function Footer() {
                             href={youtubeURL}
                             rel="noreferrer"
                             target="_blank"
-                            className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                            className="transition text-white hover:text-white/75"
+
                         >
                             <span className="sr-only">YouTube</span>
                             <svg className="size-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                <path d="m10 15l5.19-3L10 9zm11.56-7.83c.13.47.22 1.1.28 1.9c.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83c-.25.9-.83 1.48-1.73 1.73c-.47.13-1.33.22-2.65.28c-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44c-.9-.25-1.48-.83-1.73-1.73c-.13-.47-.22-1.1-.28-1.9c-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83c.25-.9.83-1.48 1.73-1.73c.47-.13 1.33-.22 2.65-.28c1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44c.9.25 1.48.83 1.73 1.73"/>
+                                <path d="m10 15l5.19-3L10 9zm11.56-7.83c.13.47.22 1.1.28 1.9c.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83c-.25.9-.83 1.48-1.73 1.73c-.47.13-1.33.22-2.65.28c-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44c-.9-.25-1.48-.83-1.73-1.73c-.13-.47-.22-1.1-.28-1.9c-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83c.25-.9.83-1.48 1.73-1.73c.47-.13 1.33-.22 2.65-.28c1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44c.9.25 1.48.83 1.73 1.73" />
                             </svg>
                         </a>
                     </li>

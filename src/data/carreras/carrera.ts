@@ -402,3 +402,257 @@ export const tecnicaturaProgramacion: Carrera = {
         },
     ]
 }
+
+export const tecnicaturaRedes: Carrera = {
+    id: 3,
+    nombre: "Tecnicatura en Redes y Operaciones Informáticas",
+    universidad: "Universidad Nacional de Hurlingham",
+    duracion: 5,
+    materias: [
+        {
+            id: 1,
+            nombre: "Matemática para informática I",
+            idCorrelativas: [],
+            cuatrimestre: 1,
+        },
+        {
+            id: 2,
+            nombre: "Introducción a la lógica y problemas computacionales",
+            idCorrelativas: [],
+            cuatrimestre: 1,
+        },
+        {
+            id: 3,
+            nombre: "Organización de Computadoras I",
+            idCorrelativas: [],
+            cuatrimestre: 1,
+        },
+        {
+            id: 4,
+            nombre: "Nuevos Entornos y Lenguajes",
+            idCorrelativas: [],
+            cuatrimestre: 1,
+        },
+        {
+            id: 5,
+            nombre: "Taller de intérpretes de comandos",
+            idCorrelativas: [2],
+            cuatrimestre: 2,
+        },
+        {
+            id: 6,
+            nombre: "Organización de computadoras II",
+            idCorrelativas: [3],
+            cuatrimestre: 2,
+        },
+        {
+            id: 7,
+            nombre: "Sistemas de comunicación",
+            idCorrelativas: [3],
+            cuatrimestre: 2,
+        },
+        {
+            id: 8,
+            nombre: "Inglés I",
+            idCorrelativas: [],
+            cuatrimestre: 2,
+        },
+        {
+            id: 9,
+            nombre: "Bases de Datos",
+            idCorrelativas: [1],
+            cuatrimestre: 3,
+        },
+        {
+            id: 10,
+            nombre: "Redes de computadoras",
+            idCorrelativas: [6, 7],
+            cuatrimestre: 3,
+        },
+        {
+            id: 11,
+            nombre: "Sistemas Operativos",
+            idCorrelativas: [5, 6],
+            cuatrimestre: 3,
+        },
+        {
+            id: 12,
+            nombre: "Operaciones I",
+            idCorrelativas: [5],
+            cuatrimestre: 3,
+        },
+        {
+            id: 13,
+            nombre: "Materia UNAHUR",
+            idCorrelativas: [],
+            cuatrimestre: 4,
+        },
+        {
+            id: 14,
+            nombre: "Redes avanzadas",
+            idCorrelativas: [10],
+            cuatrimestre: 4,
+        },
+        {
+            id: 15,
+            nombre: "Electiva I",
+            idCorrelativas: [6, 7],
+            cuatrimestre: 4,
+        },
+        {
+            id: 16,
+            nombre: "Electiva II",
+            idCorrelativas: [1, 5],
+            cuatrimestre: 4,
+        },
+        {
+            id: 17,
+            nombre: "Inglés II",
+            idCorrelativas: [8],
+            cuatrimestre: 4,
+        },
+        {
+            id: 18,
+            nombre: "Seguridad de la Información",
+            idCorrelativas: [14, 12],
+            cuatrimestre: 5,
+        },
+        {
+            id: 19,
+            nombre: "Laboratorio de sistemas operativos y redes",
+            idCorrelativas: [10, 11],
+            cuatrimestre: 6,
+        },
+        {
+            id: 20,
+            nombre: "Operaciones II",
+            idCorrelativas: [11, 12],
+            cuatrimestre: 5,
+        },
+    ]
+}
+
+export const tecnicaturaVideojuegos: Carrera = {
+    id: 4,
+    nombre: "Tecnicatura en Programación de Videojuegos",
+    universidad: "Universidad Nacional de Hurlingham",
+    duracion: 5,
+    materias: [
+        {
+            id: 1,
+            nombre: "Matemática para informática I",
+            idCorrelativas: [],
+            cuatrimestre: 1,
+        },
+        {
+            id: 2,
+            nombre: "Introducción a la lógica y problemas computacionales",
+            idCorrelativas: [],
+            cuatrimestre: 1,
+        },
+        {
+            id: 3,
+            nombre: "Introducción a los videojuegos",
+            idCorrelativas: [],
+            cuatrimestre: 1,
+        },
+        {
+            id: 4,
+            nombre: "Nuevos Entornos y Lenguajes",
+            idCorrelativas: [],
+            cuatrimestre: 1,
+        },
+        {
+            id: 5,
+            nombre: "Taller de de diseño conceptual de juegos",
+            idCorrelativas: [3],
+            cuatrimestre: 2,
+        },
+        {
+            id: 6,
+            nombre: "Programación estructurada",
+            idCorrelativas: [1, 2],
+            cuatrimestre: 2,
+        },
+        {
+            id: 7,
+            nombre: "Arte digital para videojuegos",
+            idCorrelativas: [],
+            cuatrimestre: 2,
+        },
+        {
+            id: 8,
+            nombre: "Inglés I",
+            idCorrelativas: [],
+            cuatrimestre: 2,
+        },
+        {
+            id: 9,
+            nombre: "Bases de Datos",
+            idCorrelativas: [1],
+            cuatrimestre: 3,
+        },
+        {
+            id: 10,
+            nombre: "Programación con objetos",
+            idCorrelativas: [6],
+            cuatrimestre: 3,
+        },
+        {
+            id: 11,
+            nombre: "Introducción a motores de videojuegos",
+            idCorrelativas: [6],
+            cuatrimestre: 3,
+        },
+        {
+            id: 12,
+            nombre: "Materia UNAHUR",
+            idCorrelativas: [],
+            cuatrimestre: 3,
+        },
+        {
+            id: 13,
+            nombre: "Programación de videojuegos I",
+            idCorrelativas: [10, 11],
+            cuatrimestre: 4,
+        },
+        {
+            id: 14,
+            nombre: "Electiva I",
+            idCorrelativas: [11],
+            cuatrimestre: 4,
+        },
+        {
+            id: 15,
+            nombre: "Construcción de interfaces de usuario",
+            idCorrelativas: [10],
+            cuatrimestre: 4,
+        },
+        {
+            id: 16,
+            nombre: "Inglés II",
+            idCorrelativas: [8],
+            cuatrimestre: 4,
+        },
+        {
+            id: 17,
+            nombre: "Electiva II",
+            idCorrelativas: [13],
+            cuatrimestre: 5,
+        },
+        {
+            id: 18,
+            nombre: "Elementos de ingeniería de software",
+            idCorrelativas: [13, 9],
+            cuatrimestre: 5,
+        },
+        {
+            id: 19,
+            nombre: "Programación de videojuegos II",
+            idCorrelativas: [13],
+            cuatrimestre: 5,
+        },
+    ]
+}
+
+

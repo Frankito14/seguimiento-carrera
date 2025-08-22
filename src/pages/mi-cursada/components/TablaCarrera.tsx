@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import { useModal } from '@context/ModalContext';
 import { useStorage } from "@context/StorageContext";
 
+
 //Components
 import Materia from "./Materia"
 import ModalMateriasRecomendadas from "./ModalMateriasRecomendadas";
@@ -22,6 +23,7 @@ export default function TablaCarrera() {
     const { agregarCursada, editarCursada, obtenerCursada, obtenerSesion } = useStorage()
 
     const idCarreraSeleccionada = obtenerSesion().idCarrera
+
 
     const obtenerCorrelativasAcumuladas = (carrera: Carrera, idMateria: number): Set<number> | number[] => {
         const materia = carrera.materias[idMateria - 1]
